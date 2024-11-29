@@ -9,7 +9,14 @@
 *.user
 *.userosscache
 *.sln.docstates
+# Ignore password file
 password.txt
+
+# Ignore all `.log` files
+*.log
+
+# Ignore everything in the `secrets` folder
+secrets/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
